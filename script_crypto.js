@@ -1,4 +1,5 @@
 // by: kiqx8
+// frida -U -n "<APPNAME> -l script_crypto.js --no-pause"
 
 Java.perform(function () {
     try {
